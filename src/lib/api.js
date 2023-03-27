@@ -4,7 +4,7 @@ export async function navQuery(){
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify({
             query: `{
-                menus(where: {location: PRIMARY}) {
+                menus(where: {location: MENU_1}) {
                   nodes {
                     name
                     menuItems {
